@@ -2,8 +2,11 @@
 import { render } from 'solid-js/web'
 
 import './index.css'
-import App from './App'
+import Calculator from './Calculator'
 
 const root = document.getElementById('root')
 
-render(() => <App />, root!)
+render(() => <>
+<Calculator/>
+
+</>, root!)
